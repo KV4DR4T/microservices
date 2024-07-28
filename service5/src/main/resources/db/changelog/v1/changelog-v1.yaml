@@ -1,0 +1,9 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: client table
+      author: Oleksandr
+      changes:
+        - sqlFile:
+            path: 0001-client.sql
+            relativeToChangelogFile: true
